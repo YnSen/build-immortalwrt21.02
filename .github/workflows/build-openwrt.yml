@@ -1,16 +1,17 @@
 name: Build-OpenWrt18.06
 
 on:
-  push:
-    branches: 
-      - master
+#  push:
+#    branches: 
+#      - master
 #  release:
 #    types: published
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
 #    types: started
-#  repository_dispatch:
+  repository_dispatch:
+
 
 jobs:
   build:
