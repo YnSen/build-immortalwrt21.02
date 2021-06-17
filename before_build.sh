@@ -17,3 +17,4 @@ sed -i 's/bootstrap/argon/g' feeds/luci/collections/luci/Makefile
 # Enter your commands here, e.g.
 # echo "Start build!"
 make defconfig
+make download -j8 V=s
