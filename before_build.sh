@@ -8,7 +8,7 @@ git clone https://github.com/sirpdboy/luci-app-autopoweroff
 #腾讯ddns
 git clone https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns
 pushd tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns/files/luci/controller
-sed -i 's/"admin", "tencentcloud"/"admin", "network", "tencentcloud"/g' tencentddns.lua
+sed -i 's/"admin", "tencentcloud"/"admin", "services", "tencentcloud"/g' tencentddns.lua
 popd
 popd
 # Modify default IP
